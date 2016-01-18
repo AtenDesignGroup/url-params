@@ -4,7 +4,7 @@
   "description": "Alter the query string parameters of url.",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha -w"
+    "test": "node_modules/.bin/mocha"
   },
   "keywords": [
     "url",
