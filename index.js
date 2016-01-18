@@ -3,6 +3,7 @@ var querystring = require('querystring');
 var mapValues = require('lodash/mapValues');
 var union = require('lodash/union');
 var difference = require('lodash/difference');
+var assign = require('lodash/assign');
 
 var urlParams = function() {
   
@@ -64,7 +65,7 @@ var urlParams = function() {
         }
       );
 
-      return Object.assign({}, urlObj, {query: query});
+      return assign({}, urlObj, {query: query});
     },
 
     /**
