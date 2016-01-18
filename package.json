@@ -1,0 +1,23 @@
+{
+  "name": "url-params",
+  "version": "1.0.0",
+  "description": "Alter the query string parameters of url.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "keywords": [
+    "url",
+    "query",
+    "queryString"
+  ],
+  "author": "John Ferris",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0"
+  }
+}
