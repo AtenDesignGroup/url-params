@@ -1,6 +1,6 @@
 {
   "name": "url-params",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alter the query string parameters of url.",
   "main": "index.js",
   "scripts": {
@@ -15,6 +15,10 @@
     "node": ">=0.10.0"
   },
   "author": "John Ferris",
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/AtenDesignGroup/url-params"
+  },
   "license": "MIT",
   "devDependencies": {
     "chai": "*",

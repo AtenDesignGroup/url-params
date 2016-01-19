@@ -48,7 +48,7 @@ newUrl = urlParams.remove(oldUrl, 'foo', [3, 6])
 // newUrl === 'http://www.example.com/?foo=2&baz=6'
 
 // Remove a value
-newUrl = urlParams.add(oldUrl, 'foo')
+newUrl = urlParams.remove(oldUrl, 'foo')
 // newUrl === 'http://www.example.com/?baz=6'
 
 
