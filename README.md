@@ -30,9 +30,11 @@ newUrl = urlParams.add(oldUrl, 'foo', 4);
 newUrl = urlParams.add(oldUrl, 'foo', [4, 5]);
 // newUrl === 'http://www.example.com/?foo=2+3+6+4+5&baz=6'
 
-// Add A boolean value
+// Add a boolean value
 newUrl = urlParams.add(oldUrl, 'foo');
-// newUrl === 'http://www.example.com/?foo=true&baz=6'
+// newUrl === 'http://www.example.com/?foo=2+3+6&baz=6'
+newUrl = urlParams.add(http://www.example.com/?baz=6, 'foo');
+// newUrl === 'http://www.example.com/?baz=6&foo=true'
 
 
 //

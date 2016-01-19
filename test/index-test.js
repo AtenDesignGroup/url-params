@@ -34,6 +34,11 @@ describe('urlParams', function() {
       expect(urlParams.add('http://www.example.com', 'foo'))
        .to.equal('http://www.example.com/?foo=true');
     });
+
+    it('Nothing if param exists and value is undefined', function() {
+      expect(urlParams.add('http://www.example.com?foo=2+3+4', 'foo'))
+       .to.equal('http://www.example.com?foo=2+3+4');
+    });
   });
 
   describe('Removes', function() {

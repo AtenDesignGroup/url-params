@@ -1,6 +1,6 @@
 {
   "name": "url-params",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Alter the query string parameters of url.",
   "main": "index.js",
   "scripts": {

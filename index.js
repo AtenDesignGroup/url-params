@@ -83,6 +83,10 @@ var urlParams = function() {
         return oldUrl;
       }
 
+      if (parsedValue[0] === true && urlObj.query.hasOwnProperty(param)) {
+        return oldUrl;
+      }
+
       urlObj.query[param] = urlObj.query.hasOwnProperty(param) 
         ? union(urlObj.query[param], parsedValue)
         : parsedValue;
